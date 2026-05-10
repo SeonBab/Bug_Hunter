@@ -427,3 +427,23 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Executables / build outputs
+*.exe
+*.dll
+*.lib
+*.exp
+
+# CMake, if used
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Generated resources / temp files
+*.res
+*.manifest
+
+# Windows thumbnail/cache
+Thumbs.db
+desktop.ini
