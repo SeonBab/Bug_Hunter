@@ -126,10 +126,12 @@
     <ClInclude Include="BugHunter.h" />
     <ClInclude Include="INC_Windows.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="SGWinBase.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BugHunter.cpp" />
+    <ClCompile Include="SGWinBase.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BugHunter.rc" />
